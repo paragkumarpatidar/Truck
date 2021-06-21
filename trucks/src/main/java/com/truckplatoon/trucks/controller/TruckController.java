@@ -31,7 +31,7 @@ public class TruckController {
 	}
 
 	@GetMapping("/{id}")
-	public Truck getTruckFromId(@PathVariable(value = "id") Long truckId) throws ResourceNotFoundException {
+	public Truck getTruckFromId(@PathVariable(value = "id") Integer truckId) throws ResourceNotFoundException {
 		return truckRepository.findById(truckId)
 				.orElseThrow(() -> new ResourceNotFoundException("Truck not found for this id :: " + truckId));
 	}
@@ -42,7 +42,7 @@ public class TruckController {
 	}
 
 	@DeleteMapping("/deleteTruck/{id}")
-	public Map<String, Boolean> deleteTruck(@PathVariable(value = "id") Long truckId) throws ResourceNotFoundException {
+	public Map<String, Boolean> deleteTruck(@PathVariable(value = "id") Integer truckId) throws ResourceNotFoundException {
 		Truck truck = truckRepository.findById(truckId)
 				.orElseThrow(() -> new ResourceNotFoundException("Truck not found for this id :: " + truckId));
 

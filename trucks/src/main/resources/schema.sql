@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS trucks;
+CREATE TABLE trucks(
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  truck_name VARCHAR(250) NOT NULL,
+  truck_type VARCHAR(250) NOT NULL
+);

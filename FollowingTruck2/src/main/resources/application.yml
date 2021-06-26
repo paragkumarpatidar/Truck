@@ -1,0 +1,11 @@
+
+server:
+  port: 1236
+  
+spring:
+  application:
+    name: followingTruck2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

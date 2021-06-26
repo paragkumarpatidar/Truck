@@ -23,34 +23,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/trucks/addTruck",
+							"raw": "http://localhost:1234/trucks/addTruck",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "1234",
 							"path": [
 								"trucks",
 								"addTruck"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Get All Trucks",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/trucks",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"trucks"
 							]
 						}
 					},
@@ -71,35 +52,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/trucks/addTruck",
+							"raw": "http://localhost:1234/trucks/addTruck",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "1234",
 							"path": [
 								"trucks",
 								"addTruck"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Get Truck with ID",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/trucks/1",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"trucks",
-								"1"
 							]
 						}
 					},
@@ -120,15 +81,54 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/trucks/addTruck",
+							"raw": "http://localhost:1234/trucks/addTruck",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "1234",
 							"path": [
 								"trucks",
 								"addTruck"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Trucks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1234/trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1234",
+							"path": [
+								"trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Truck with ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1234/trucks/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1234",
+							"path": [
+								"trucks",
+								"1"
 							]
 						}
 					},
@@ -140,12 +140,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/trucks/deleteTruck/1",
+							"raw": "http://localhost:1234/trucks/deleteTruck/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "1234",
 							"path": [
 								"trucks",
 								"deleteTruck",
